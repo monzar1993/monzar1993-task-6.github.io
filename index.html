@@ -1,0 +1,68 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width initial-scale=1" />
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<link rel="stylesheet" href="css/all.css" type="text/css"/>
+	<link rel="stylesheet" href="css/fonts.css" type="text/css"/>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<title>Task #6</title>
+</head>
+
+<body>
+	<h3>Task №1</h3>
+	<div>
+        <p>Первое число:</p>
+        <input type="text" name="first" placeholder="Введите число" />
+        <p>Второе число:</p>
+        <input type="text" name="second" placeholder="Введите число" />
+        <p>Выберите действие:</p>
+        <button type="button" class="action" data-action="+">+</button>
+        <button type="button" class="action" data-action="-">-</button>
+        <button type="button" class="action" data-action="*">x</button>
+        <button type="button" class="action" data-action="/">/</button>
+        <br>
+        <input class="first-task-button" type="button" name="send" value="Расcчитать" />
+        <br>
+        <input type="text" name="result" placeholder="Ответ" />
+    </div>
+
+	<h3>Task №2</h3>
+	<div class="second">
+		<input class="lowercase" type="text" name="" value="" placeholder="Введите текст">
+		<input id="uppercase-button" type="button" name="button" value="upperCase">
+	</div>
+
+	<h3>Task №3 </h3>
+	<form>
+		<input type="text" name="num1" value="" placeholder="Insert the number"><br>
+		<input type="text" name="num2" value="" placeholder="Insert the number"><br>
+		<label><input type="radio" name="math" value="+">Addition(+)</label>
+		<label><input type="radio" name="math" value="-">Subtraction(-)</label>
+		<label><input type="radio" name="math" value="*">Multiplication(x)</label>
+		<label><input type="radio" name="math" value="/">Division(/)</label>
+		<br>
+		<input type="button" name="calc" value="Calculate"/><br>
+		<input type="text" name="result2" value="" placeholder=" Is equal to">
+	</form>
+
+
+
+	<h3>Task №4 </h3>
+		<p>Сумма зарплат работников: <span id="p1">!</span></p>
+	<h3>Task №5 </h3>
+		<p>Имя сотрудника с наибольшей з/п <span id="p2">!</span></p>
+	<h3>Task №6 </h3>
+		<p class="line-1">Вывод чисел от 1 до n=<span id="p3a">!</span><br><span id="p3">!</span></p>
+	<h3>Task №7 </h3>
+	<p class="line-2">Вывод суммы чисел в интервале от 1 до n<br><span id="p4">!</span></p>
+	<p class="line-2">Вывод суммы чисел в интервале от 1 до n<br><span id="p5">!</span></p>
+	<h3>Task №8</h3>
+	<p>Результат представлен в консоли по нажатии на кнопку</p>
+<button onclick="printNumbersInterval()">printNumbersInterval()</button>
+<button onclick="printNumbersTimeout20_100()">printNumbersInterval()</button>
+</body>
+</html>
